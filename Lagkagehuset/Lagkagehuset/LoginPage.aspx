@@ -13,7 +13,7 @@
     <form id="loginForm">
         <div class="container">
             <label>Brugernavn: </label>
-            <input type="text" placeholder="Indsæt Brugernavn " name="username" required="required"/>
+            <input type="text" placeholder="Indsæt Brugernavn  " name="username" required="required"/>
             <br /> <br />
             <label>Kodeord: </label>
             <input type="password" placeholder="Indsæt Kodeord" name="password" required="required" />
