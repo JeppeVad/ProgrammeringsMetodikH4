@@ -16,7 +16,7 @@ namespace Lagkagehuset
             users medarbejder = new users();
             //List<users> allusers = new List<users>();
             createUser(medarbejder, 2, "medarbejder", "medarbejder", "Ian", "ian@ian.dk", 12312323, true);
-            allusers.Add(medarbejder);
+            allusers.Add(medarbejder); 
             if(Request.QueryString["username"] == medarbejder.username.ToString() && Request.QueryString["password"] == medarbejder.password.ToString()) 
             {
                 Server.Transfer("Default.aspx");
